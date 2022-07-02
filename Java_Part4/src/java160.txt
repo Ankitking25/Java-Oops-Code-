@@ -1,0 +1,12 @@
+//It is runable hona chayia
+//What is concept
+public class java160 extends RuntimeException   //Here we just extend the java160 throw method 
+//Means that make an RuntimeException 
+//we can thorw that object which is throw able
+//Mean that know java160 is subclass of RuntimeException 
+
+  public static void  main (String args[])
+  {
+	  throw new java160();  //here we 
+  }
+}
