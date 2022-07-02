@@ -1,0 +1,16 @@
+//the static method can not use non static data member
+//Static method can access static data member and can change the value of it.
+
+class java48
+{
+	int a=10;   //instance variable
+	static int y =30;  //static variable
+	public static void main(String args[])
+	{
+		int x=20;   //Local variable
+		System.out.println("variable:"+x);  //run local variable
+		System.out.println("Variable"+y);  //run static variable
+	//	System.out.println("Instance Variable"+a);  //here is an error imp
+		//In static method we can't use instance variable like here a=10;
+	}
+}
