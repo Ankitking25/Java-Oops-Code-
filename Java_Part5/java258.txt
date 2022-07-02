@@ -1,0 +1,14 @@
+package DoublyLinked_List;
+
+public class java258 {
+public static void main(String args[])
+{
+	Mythread t = new Mythread();  //Is sub class of Thread class
+	t.start();  //method of thread class
+	//here two thread are 
+	for(int i=0;i<5;i++)     //It is the thread of main class not Mythread object
+	{
+		System.out.println("Main Thread");
+	}
+}
+}

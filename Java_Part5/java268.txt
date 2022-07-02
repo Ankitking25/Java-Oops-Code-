@@ -1,0 +1,26 @@
+package DoublyLinked_List;
+//getName --> Give name of the thread
+//setName --> Set name of the thread
+//Thread.currentThread() --> Give current thread Name
+public class java268 {
+public static void main(String args[]){
+	Myths  t = new Myths();
+	t.start();
+    System.out.println(t.getName());
+	System.out.println(Thread.currentThread());
+	t.setName("Oxinon");
+	System.out.println(t.getName());
+	Thread.currentThread().setName("the ebnw");
+	System.out.println(Thread.currentThread().getName());
+}
+}
+class Myths extends Thread
+{
+	public void run()   
+	
+		{
+
+			System.out.println(Thread.currentThread().getName());
+		}
+	
+}

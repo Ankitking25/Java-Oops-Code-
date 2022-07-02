@@ -1,0 +1,21 @@
+package DoublyLinked_List;
+
+public class java253 
+{
+public static void main(String args[])
+{
+	//String Buffer constructor
+	{
+		StringBuffer sb = new StringBuffer("Geekyshow");
+		System.out.println(sb.capacity());
+		//Initial length 16 + new length geekyshow 9
+	}
+
+}
+}
+
+/*
+ * StringBuffer sb = new StringBuffer("a")
+ * System.out.println(sb.capacity());
+ * output->give 97 Aasic value
+ */

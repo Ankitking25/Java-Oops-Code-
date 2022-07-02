@@ -1,0 +1,12 @@
+package DoublyLinked_List;
+//Declaring and Initializing char in java
+public class java271 {
+public static void main(String args[])
+{
+	Character a = new Character('A');
+	System.out.println("letter:"+a);
+	//
+	char letter='B';
+	System.out.println("letter:"+letter);
+}
+}

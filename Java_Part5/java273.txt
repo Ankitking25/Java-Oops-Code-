@@ -1,0 +1,12 @@
+package DoublyLinked_List;
+
+public class java273 {
+public static void main(String args[])
+{
+	char a[] = {'G','E','E','K','y'};
+	for(int i=0;i<5;i++)
+	{
+		System.out.println(a[i]);
+	}
+}
+}

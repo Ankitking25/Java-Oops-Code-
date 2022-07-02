@@ -1,0 +1,24 @@
+package DoublyLinked_List;
+//Use super keyword run method overriding
+public class java264 {
+public void main (String agrs[])
+{
+	Myts t = new Myts();
+	t.start();
+	System.out.println("one of the king");
+	t.start();  //restarting the thread -->Give IllegalThreadStateException
+	//we cannot use start two time in threading
+}
+}
+class Myts extends Thread
+{
+	public void start()
+	{
+		super.start();
+		System.out.println("The game of the pacific");
+	}
+	public void run()
+	{
+		System.out.println("The yellow man");
+	}
+}

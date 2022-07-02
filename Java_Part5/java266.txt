@@ -1,0 +1,23 @@
+package DoublyLinked_List;
+//Give name to the thread
+public class java266 
+{
+public static void main (String args[]){
+	Mth t = new Mth("Geeky");
+	t.start();
+	System.out.println("Main Thread");
+}
+}
+
+class Mth extends Thread
+{
+	public void run()
+	{
+		System.out.println(Thread.currentThread().getName());
+	}
+	//Give name
+	Mth(String name)
+	{
+		super(name);
+	}
+}

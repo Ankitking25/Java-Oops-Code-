@@ -1,0 +1,19 @@
+//getPriority and setPriority in java
+package DoublyLinked_List;
+public class java269 {
+public static void main(String args[])
+{
+	System.out.println(Thread.currentThread().getPriority());
+	Mythred t = new Mythred();
+	t.setPriority(8); //remember range for 1 to 10
+	t.start();
+	System.out.println(t.getPriority());
+}
+}
+class Mythred extends Thread
+{
+	public void run()
+	{
+		
+	}
+}

@@ -1,0 +1,23 @@
+package DoublyLinked_List;
+//static Yield method --> Pause current thread and give chance to the next Thread
+public class java270_yield {
+public static void main(String args[])
+{
+	Mthh t = new Mthh();
+	t.start();
+	for(int i=0;i<5;i++)
+	{
+		System.out.println("Main Thread");
+		Thread.yield();  //use when same Priority
+	}
+}
+}
+class Mthh extends Thread
+{
+	public void run(){
+		for(int i=0;i<5;i++)
+		{
+			System.out.println("Child Thread");
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package DoublyLinked_List;
+public class java251 {
+ public static void main(String args[])
+ {
+	 StringBuffer sb = new StringBuffer();
+	 sb.append("Geekyshowyoutub");
+	 sb.append("e");
+	 sb.append("Geekyshowyoutub");
+	 sb.append("e");
+	 sb.append("uty"); //give 70 because the character is 35 more then 34 new=(current+1) * 2
+	 System.out.println(sb.capacity());
+ }
+}

@@ -1,0 +1,11 @@
+//String Buffer constructor define length of character
+
+package DoublyLinked_List;
+public class java252 {
+public static void main(String args[])
+{
+	//By Default 16 hota hai
+	StringBuffer sb = new StringBuffer(17);
+	System.out.println(sb.capacity());
+}
+}

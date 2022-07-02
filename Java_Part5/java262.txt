@@ -1,0 +1,25 @@
+package DoublyLinked_List;
+//overriding start method in java
+public class java262 {
+    public void main(String args[])
+    {
+    	Myth t = new Myth();
+    	t.start();
+    	System.out.println("13 reason why");
+    }
+}
+class Myth extends Thread
+{
+	public void start(){
+		System.out.println("The wolf of the Street");
+	}
+	public void run()
+	{
+		System.out.println("The Mars");
+	}
+}
+//output
+//The wolf of the Street 
+//13 reason why
+//Thread hai
+//

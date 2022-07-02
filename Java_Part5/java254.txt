@@ -1,0 +1,12 @@
+package DoublyLinked_List;
+
+public class java254 {
+public static void main(String args[])
+
+{
+	CharSequence a = "Geeky";
+	StringBuffer ab = new StringBuffer(a);
+    System.out.println(ab.capacity());
+    // 16 + CharSequence
+}
+}

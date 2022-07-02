@@ -1,0 +1,9 @@
+package DoublyLinked_List;
+public class java255 {
+//String Builder me multithreading hoti hai 
+public static void main(String args[])
+
+	{
+		
+	}
+}

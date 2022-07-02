@@ -1,0 +1,12 @@
+package DoublyLinked_List;
+
+public class java256 {
+public static void main(String args[])
+{
+	//method chain used in  Stringbuffer of Stringbuilder and also in string 
+	//condition is return type of all is same
+	StringBuffer sc = new StringBuffer();
+	sc.append("geeky").insert(4,"b").append("Showo").deleteCharAt(10);
+	System.out.println(sc);
+}
+}

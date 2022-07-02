@@ -1,0 +1,27 @@
+package DoublyLinked_List;
+//if priority is same the we cannot say which has more priority 
+//It depend on thread Schedular of JVM
+//concept is right but why child Thread not execute as higher priority
+//because some operating system not assign Priority order 
+public class Thread_priority_java269 {
+public static void main(String args[])
+{
+	Mtt t = new Mtt();
+	t.setPriority(8);  //we give t as higher Priority
+	t.start();
+	for(int i=0;i<5;i++)
+	{
+		System.out.println("Main Thread");
+	}
+}
+}
+class Mtt extends Thread
+{
+	public void run()
+	{
+		for(int i=0 ; i<5 ; i++)
+		{
+			System.out.println("Child Thread");
+		}
+	}
+}

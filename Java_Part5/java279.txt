@@ -1,0 +1,15 @@
+package DoublyLinked_List;
+//String are immutable mean cannot change
+public class java279 {
+	public static void main(String args[])
+	{
+		String st = new String("Geekyshow");
+		String b=st.concat("youtube");
+		
+		//st.concat("youtube")-->No reference varible that reference to concat with_Geekyshow
+		//st="shows";   It not change_it_Update here form right to left
+		System.out.println(b);
+		//String are Immutable in Nature
+	}
+
+}

@@ -1,0 +1,24 @@
+package DoublyLinked_List;
+//Overloading run method in java
+public class java260 {
+public static void main(String args[])
+{
+	Mythre t = new Mythre();
+	t.start();    //Jisme koi argument nahi hoga by default vo invoke hoga
+	t.run(10);
+}
+}
+class Mythre extends Thread
+{
+	public void run()
+	{
+		System.out.println("No arguments pass");
+	}
+	public void run(int i)
+	{
+		System.out.println("With arguments pass"+i);
+		
+	}
+}
+
+//The complete program is also a Threading concept run as well_as_start

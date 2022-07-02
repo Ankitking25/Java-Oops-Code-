@@ -1,0 +1,17 @@
+package DoublyLinked_List;
+//Decleration of character 1D same as 1D arry change int to char
+public class java272 {
+  public static void main(String args[])
+  {
+	  char a[] = new char[5];
+	  a[0]='G';
+	  a[1]='E';
+	  a[2]='E';
+	  a[3]='K';
+	  a[4]='Y';
+	  for(int i=0;i<5;i++)
+	  {
+		  System.out.println(a[i]);
+	  }
+  }
+}

@@ -1,0 +1,30 @@
+package DoublyLinked_List;
+//Use super keyword run method overriding
+public class java263 {
+public void main (String agrs[])
+{
+	Myt t = new Myt();
+	t.start();
+	System.out.println("13 reason why");
+}
+}
+class Myt extends Thread
+{
+	public void start()
+	{
+		super.start();
+		System.out.println("The wolf of the street");
+	}
+	public void run()
+	{
+		System.out.println("The Mars");
+	}
+}
+//The wolf_of the Street
+//The Mars
+//13 reason why
+//up down it is a Threading
+
+//imp when we go to the Thread mean-<=>Thread say that program me threading karo aab
+//when child thread execute like here Myt then all run thread execute
+//otherwise All thread is executed by Thread class

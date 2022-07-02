@@ -1,0 +1,10 @@
+package DoublyLinked_List;
+
+public class java280 {
+public static void main(String args[])
+{
+	StringBuffer st = new StringBuffer("Geekyshow");
+	st.append("Youtube"); //add because of StringBuffer
+	System.out.println(st);
+}
+}

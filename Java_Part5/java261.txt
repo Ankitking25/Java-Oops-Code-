@@ -1,0 +1,20 @@
+package DoublyLinked_List;
+//Not overriding run_method in java
+public class java261 {
+public static void main(String args[])
+{
+	Mythrd t = new Mythrd();
+	t.start();
+}
+}
+class Mythrd extends Thread
+{
+     //overiding is happen 
+	/*
+	 * control first go to the Mythrd class and find run method
+	 * There is No, run method Present in Mythrd class
+	 * the control go to the super class of the Mythread which is Thread
+	 * then control find run method in Thread class-->It find it
+	 * but run method of Thread class is empty so output is blank screen
+	 */
+}

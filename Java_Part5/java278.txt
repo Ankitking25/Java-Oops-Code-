@@ -1,0 +1,15 @@
+package DoublyLinked_List;
+//isLetter keyword --> return boolean type
+public class java278 {
+	public static void main(String args[])
+	{
+       char a = 'S';
+       char b = '6';
+       System.out.println(Character.isLetter(a));
+       System.out.println(Character.isLetter(b));
+       System.out.println(Character.isLetter('\n'));
+       System.out.println(Character.isLetter('\t'));
+	}
+	
+ 
+}

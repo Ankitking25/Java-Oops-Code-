@@ -1,0 +1,19 @@
+package DoublyLinked_List;
+import java.util.Scanner;
+//Take a user input a character in java
+public class java275 {
+public static void main(String agrs[])
+{
+	char a[] = new char[5];
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter 5 Character");
+	for(int i=0;i<5;i++)
+	{
+		a[i]=sc.next().charAt(0);
+	}
+	for(int i=0;i<5;i++)
+	{
+		System.out.println(a[i]);
+	}
+}
+}

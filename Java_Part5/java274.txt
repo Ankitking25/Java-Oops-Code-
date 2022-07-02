@@ -1,0 +1,12 @@
+package DoublyLinked_List;
+import java.util.Scanner;
+public class java274 {
+public static void main(String args[])
+{
+	char a ;
+	Scanner ab = new Scanner(System.in);
+	System.out.println("Enter a Character value");
+	a=ab.next().charAt(0);  //we specifie index 0
+	System.out.println("You Entered:"+a);
+}
+}

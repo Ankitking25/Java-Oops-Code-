@@ -1,0 +1,30 @@
+package DoublyLinked_List;
+//Creating Thread by Implementing Runnable Interface in java
+public class java265 
+{
+	public static void main(String args[])
+
+ {
+   Mythreads t = new Mythreads();
+   Thread sb = new Thread(t); //if we replace Thread sb = new Thread(); the Mythread linked break
+   sb.start();  //if we replace t.start the thread outcome always same
+   //for main thread
+   for(int i=0;i<5;i++)
+   {
+	   System.out.println("Main Thread");
+   }
+ }
+	
+}
+class Mythreads implements Runnable
+{
+	public void run()   
+	{
+		for(int i=0;i<5;i++)
+		{
+			System.out.println("Child Thread");
+		}
+	}
+}
+//here
+//if we write as Thread sv = new Thread(t,"thread_name")
